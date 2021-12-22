@@ -16,14 +16,28 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 
-.alert-box {
-	background-color: #ff9900;
-	color: #777;
-	font-size: 14px;
-	line-height: 23px;
-	padding: 13px 16px;
-	text-align: center;
-} 
+section {
+  padding: 20px;
+}
+
+.announcement-top-bar {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.announcement-top-bar p {
+  margin: 0;
+}
+
+.announcement-top-bar.alert-dismissible .close {
+  top: 50%;
+  transform: translateY(-55%);
+}
+
 
 :root {
   --color-bg: #69F7BE;
