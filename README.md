@@ -12,7 +12,7 @@
 - Kapspire Community
 - Kapspire Games
 - Kapspire Apps
-- Bind commands to user input.
+- NORE COMING SOON
 
 ⚠ WARNING: DO NOT COPY THIS ASSET! THIS IS ONLY USED FOR EDUCATIONAL PURPOSES ONLY! ⚠					     
 					     
