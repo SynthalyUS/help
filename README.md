@@ -1,7 +1,7 @@
 <div align="center">
 	<img src=https://i.imgur.com/92OHQfJ.png" alt="Kapspire" height="150" />
 	<br>
-	[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/dc82.svg)](https://betteruptime.com/?utm_source=status_badge)
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/dc7z.svg)](https://betteruptime.com/?utm_source=status_badge)
 									 
 <p><a href="https://www.kapspire.com">About Kapspire</a></p>
 </div>
