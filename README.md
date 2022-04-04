@@ -12,7 +12,6 @@
 - Kapspire Community
 - Kapspire Games
 - Kapspire Apps
-- MORE COMING SOON
 
 ⚠ WARNING: DO NOT COPY THIS ASSET! THIS IS ONLY USED FOR EDUCATIONAL PURPOSES ONLY! ⚠					     
 					     
