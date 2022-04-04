@@ -2,7 +2,8 @@
 	<img src=https://i.imgur.com/92OHQfJ.png" alt="Kapspire" height="150" />
 	<br>
 	[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/dc82.svg)](https://betteruptime.com/?utm_source=status_badge)
-	<p><a href="https://www.kapspire.com">About Kapspire</a></p>
+									 
+<p><a href="https://www.kapspire.com">About Kapspire</a></p>
 </div>
 
 **Kapspire** Best App for, Web Development For Clients And Market, Brand Creation, Trend Analysis & Style Consulting, Product Promotion, Blog Advertising & SEO.
