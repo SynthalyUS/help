@@ -262,6 +262,325 @@ a.button-9.w-button:hover {
 .text-block-34 {
     border-bottom: 1px solid transparent;
 }
+<style>
+body {
+  background-color: #f5f2f0;
+}
+header {
+  background-color: #fff;
+  width: 100%;
+	height: 80px;
+	border-radius: 24px;
+}
+.logo {
+  margin: 24px 0px 24px 32px;
+  height: 32px;
+  display: inline-block;;
+	float: left;
+}
+
+.avi {
+  float: right;
+	margin: 0px 32px 0px 0px;
+}
+
+nav {
+	font-size: 15px;
+  display: inline-block;
+  float: left;
+}
+
+nav ul {
+  display: inline;
+  float: left;
+	line-height: 50px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #999;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #000;
+}
+
+	hr {
+	border: 0.5px solid #e5e5e5;
+	}
+
+	body {
+    font-family: 'Roboto', sans-serif;
+  }
+   .container {
+		 margin: 28px 0px 0px 0px;
+  }
+
+   .launcher {
+     position: relative;
+  	 text-align: center;
+  	 color: #272727;
+  }
+   .app-launcher {
+  	 position: absolute;
+  	 right: -48px;
+  	 top: 88px;
+  	 animation: menu 300ms;
+  	 z-index: 0;
+  	 transition: all 300ms ease-in-out 0s, visibility 0s linear 300ms;
+  	 display: none;
+  	 border-radius: 2px;
+  }
+   .app-launcher:before {
+  	 content: '';
+  	 border-left: 10px solid transparent;
+  	 border-right: 10px solid transparent;
+  	 border-bottom: 10px solid #ccc;
+  	 border-bottom-color: #ccc;
+  	 position: absolute;
+  	 top: -9px;
+  	 left: 81%;
+  	 transform: translate(-50%);
+  	 z-index: 1;
+  }
+   .app-launcher:after {
+  	 position: absolute;
+  	 top: -8px;
+		 left: 81%;
+  	 transform: translate(-50%);
+  	 display: inline-block;
+  	 border-right: 9px solid transparent;
+  	 border-bottom: 9px solid #fff;
+  	 border-left: 9px solid transparent;
+  	 content: "";
+  	 z-index: 2;
+  }
+   .apps {
+  	 position: relative;
+  	 border: 1px solid #ccc;
+     border-radius: 8px;
+  	 border-color: rgba(0, 0, 0, 0.2);
+  	 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  	 -webkit-transition: height 200ms ease-in-out;
+  	 transition: height 200ms ease-in-out;
+  	 overflow-y: auto;
+  	 overflow-x: hidden;
+  	 width: 320px;
+  	 height: 360px;
+  	 margin-bottom: 30px;
+  	 display: block;
+  	 white-space: normal;
+  	 text-align: left;
+  	 margin: 0;
+  	 padding: 0;
+  }
+   .apps ul {
+  	 background: #fff;
+  	 margin: 0;
+  	 padding: 24px;
+  	 text-align: left;
+  	 width: 272px;
+  	 overflow: hidden;
+  	 list-style: none;
+  	 position: relative;
+  	 display: block;
+  	 white-space: normal;
+  	 min-height: 100px;
+  }
+   .apps ul li {
+  	 height: 98px;
+  	 width: 86px;
+  	 color: black;
+  	 margin: 0;
+  	 padding: 1px;
+  	 text-align: center;
+  	 display: inline-block;
+  	 vertical-align: top;
+  }
+   .apps ul li a {
+  	 text-decoration: none;
+  	 font-family: 'Roboto', sans-serif;
+  	 display: block;
+  	 margin: 8px 2px;
+  	 text-align: center;
+  	 border: 1px solid transparent;
+  	 transform: translate(0px, 0px);
+  	 transition: transform 0.2s cubic-bezier(0.333, 0, 0, 1);
+  }
+  .apps ul li a:hover {
+  	background: #f5f5f5;
+    border-radius: 8px;
+  }
+  .apps ul li a span {
+  	 font-size: 12px;
+  	 line-height: 16px;
+  	 display: block;
+  	 color: #272727;
+  }
+  .apps ul li a img {
+  	 width: 64px;
+  	 height: 64px;
+  	 display: block;
+  	 margin: 0 auto;
+  }
+
+	.avatar-badge {
+		position: relative;
+		margin: -12px 0px 0px 20px;
+		padding: 2px 3px 2px 3px;
+		width: max-content;
+		height: 8px;
+		background-color: #FF6347;
+		font-size: 8px;
+		color: white;
+		border-radius: 8px;
+	}
+
+	.avatar {
+		position: static;
+		margin: -8px 0px 0px 0px;
+		width: 34px;
+  	height: auto;
+		border-radius: 20px;
+		border: 2px solid #00c400;
+		opacity: 1;
+		cursor: pointer;
+	}
+	.avatar:hover {
+		border: 2px solid rgba(0, 196, 0, 0.8);;
+	  }
+
+	.launcher .apps-button {
+		cursor: pointer;
+		width: 30px;
+		margin: 0 auto;
+ }
+	.launcher .apps-button img {
+		opacity: 0.55;
+ }
+
+	.launcher .apps-button:hover img {
+		opacity: 0.85;
+ }
+  .show {
+  	 display: block;
+  }
+	.hide {
+		display: none;
+ }
+
+   @keyframes menu {
+  	 0% {
+  		 opacity: 0;
+  		 transform: translateY(-2rem);
+  	}
+  	 100% {
+  		 oapcity: 1;
+  		 transform: translateY(0);
+  	}
+  }
+
+	.profile-options {
+		position: absolute;
+		right: 0px;
+		top: 88px;
+		animation: menu 300ms;
+		z-index: 0;
+		transition: all 300ms ease-in-out 0s, visibility 0s linear 300ms;
+		display: none;
+		border-radius: 2px;
+ }
+	.profile-options:before {
+		content: '';
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #ccc;
+		border-bottom-color: #ccc;
+		position: absolute;
+		top: -9px;
+		left: 91%;
+		transform: translate(-50%);
+		z-index: 1;
+ }
+	.profile-options:after {
+		position: absolute;
+		top: -8px;
+		left: 91%;
+		transform: translate(-50%);
+		display: inline-block;
+		border-right: 9px solid transparent;
+		border-bottom: 9px solid #fff;
+		border-left: 9px solid transparent;
+		content: "";
+		z-index: 2;
+ }
+
+ .profile-items {
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	border-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	-webkit-transition: height 200ms ease-in-out;
+	transition: height 200ms ease-in-out;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 240px;
+	height: ;
+	margin-bottom: 30px;
+	display: block;
+	white-space: normal;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+ .profile-items ul {
+	background: #fff;
+	margin: 0;
+	padding: 24px;
+	text-align: left;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	white-space: normal;
+	min-height: 100px;
+}
+ .profile-items ul li {
+	width: 100%;
+	height: 56px;
+	color: black;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+}
+ .profile-items ul li a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	height: 56px;
+	transform: translate(0px, 0px);
+	transition: transform 0.2s cubic-bezier(0.333, 0, 0, 1);
+}
+.profile-items ul li a:hover {
+ 	background: #f5f5f5;
+	border-radius: 8px;
+}
+.profile-items ul li a img {
+	margin: 20px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+}
+.profile-items ul li a span {
+	font-size: 15px;
+	display: inline-block;
+	line-height: 56px;
+	color: #272727;
+}
 	</style>
 	<script src="https://static.landbot.io/consent/landbot-consent-manager.js" defer></script><script type='text/javascript'>(function() {var gs = document.createElement('script');gs.src = 'https://snippet.growsumo.com/growsumo.min.js';gs.type = 'text/javascript';gs.async = 'true';gs.onload = gs.onreadystatechange = function() {var rs = this.readyState;if (rs && rs != 'complete' && rs != 'loaded') return;try {growsumo._initialize('pk_NNAiUP7JM1U0kE2EvSk0S12dbL9hd43K');if (typeof(growsumoInit) === 'function') {growsumoInit();}} catch (e) {}};var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gs, s);})();</script>
 	<meta content="Best App for, Web Development For Clients And Market, Brand Creation, Trend Analysis &amp; Style Consulting, Product Promotion, Blog Advertising &amp; SEO." name="description" />
@@ -280,35 +599,74 @@ a.button-9.w-button:hover {
 	<meta content="@kapspire" name="twitter:site" />
 	<meta content="https://i.ibb.co/yXTq8FB/Opera-Snapshot-2022-02-02-094631-studio-tailorbrands-com-removebg-preview-2.png" name="twitter:image" />
 	<meta content="@kapspire" name="twitter:creator" /><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","@id":"https:\/\/landbot.io#organization","name":"Landbot","url":"https:\/\/landbot.io","logo":{"@type":"ImageObject","url":"https:\/\/landbot.io\/wp-content\/uploads\/2019\/04\/LB-Horizontal-logoavatar.png","width":1200,"height":630,"@id":"https:\/\/landbot.io#logo"},"sameAs":["https:\/\/www.facebook.com\/landbot.io\/","https:\/\/twitter.com\/landbot_io","https:\/\/www.youtube.com\/channel\/UCVUzpUQEaf0Alj-e47Gi8Qg\/","https:\/\/www.linkedin.com\/company\/11248746"]}</script><script src="https://www.googleoptimize.com/optimize.js?id=GTM-PP2DRZK" async></script><script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js" defer></script>
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
 </head>
+<body translate="no" >
+  <html>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <body>
-<header class="navigation-wrap">
-<div class="navigation-old w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-no-scroll="1" role="banner">
-<div class="nav-container-old">
-<div class="navigation-left"><a class="w-inline-block" href="http://kapspire.com/"><img alt="logo-landbot-navbar" class="nav-mainlogo" src="https://i.imgur.com/92OHQfJ.png" style="width: 206px; height: 41px;" /></a></div>
+<header>
+	<a href="https://www.kapspire.com"><img class="logo" src="https://i.imgur.com/92OHQfJ.png" /></a>
+		<nav>
+			<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">Download</a></li>
+					<li><a href="#">Status</a></li>
+					<li><a href="#">Support</a></li>
+			</ul>
+		</nav>
+		<nav class="avi">
+			        </div>
+					</div>
+			</div>
+		</nav>
+		<nav class="avi">
+			<div class="container">
+					<div class="launcher">
+							<div class="apps-button"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--apps.svg" /></div>
+							<div class="app-launcher">
+									<div class="apps">
+											<ul class="first-set">
+													<li><a href="https://www.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Kapspire</span></a></li>
+													<li><a href="https://app.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Community</span></a></li>
+													<li><a href="https://apps.kapspire.com"><img src="https://i.imgur.com/roPdwtz.pnghttps://i.imgur.com/roPdwtz.png" /><span>Apps</span></a></li>
+													<li><a href="https://blog.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Blog</span></a></li>
+													<li><a href="https://feedback.kapspire.com"><img src="https://i.imgur.com/roPdwtz.pnghttps://i.imgur.com/roPdwtz.pnghttps://i.imgur.com/roPdwtz.png" /><span>Feedback</span></a></li>
+													<li><a href="https://games.kapspire.com"><img src="https://i.imgur.com/roPdwtz.pnghttps://i.imgur.com/roPdwtz.png" /><span>Games</span></span></a></li>
+													<li><a href="https://giveaways.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Giveaways</span></a></li>
+													<li><a href="https://keyon.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Keyon</span></a></li>
+													<li><a href="https://news.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>News</span></a></li>
+													<li><a href="https://nft.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>NFTs</span></a></li>
+													<li><a href="https://plans.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Plans</span></a></li>
+													<li><a href="https://podcast.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Podcast</span></a></li>
+													<li><a href="https://privacy.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Privacy</span></a></li>
+													<li><a href="https://terms.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Terms</span></a></li>
+													<li><a href="https://shop.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Shop</span></a></li>
+													<li><a href="https://status.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Status</span></a></li>
+													<li><a href="https://support.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Support</span></a></li>
+													<li><a href="https://watch.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Watch</span></a></li>
+													<li><a href="https://wiki.kapspire.com"><img src="https://i.imgur.com/roPdwtz.png" /><span>Wiki</span></a></li>
+											</ul>
+									</div>
+							</div>
+					</div>
+			</div>
+		</nav>
 
-<div class="navigation-right-2">
-<div class="login-buttons"><a class="header-button-4 login-navbar w-nav-link" href="http://login.kapspire.com"><span class="text-span-139">LOGIN</span></a><a class="button-menu-3 nav w-button" href="http://signup.kapspire.com"><span class="text-span-34">Signup</span></a></div>
-</div>
-</div>
-</div>
-
-<div class="navigation-mobile-old w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease-out" data-easing2="ease-out" role="banner">
-<div class="nav-container-mobile-old"><a class="brand-2 w-nav-brand" href="https://kapspire.com/"><img alt="" class="nav-mainlogo" src="https://i.ibb.co/kqTbBz3/image-1.png" style="width: 206px; height: 41px;" /></a>
-
-<nav class="mobile-nav w-nav-menu" role="navigation">
-<div class="mobile-dropdown-2 w-dropdown" data-delay="0" data-hover="false">
-<div class="mobile-toggle-2 w-dropdown-toggle">
-<div class="w-icon-dropdown-toggle">&nbsp;</div>
-<a class="mobile-nav-link-2 w-nav-link" href="https://login.kapspire.com/">Login</a><a class="mobile-nav-link-2 signup w-nav-link" href="https://signup.kapspire.com">Sign Up</a></div>
-</div>
-</nav>
-
-<div class="menu-mob-2 w-nav-button">
-<div class="w-icon-nav-menu">&nbsp;</div>
-</div>
-</div>
-</div>
 </header>
 
 <div class="hero-section bg-neutral-200 bg-hero-pattern wf-section">
