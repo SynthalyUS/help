@@ -1,5 +1,5 @@
 <div align="center">
-	<img src=https://i.imgur.com/92OHQfJ.png" alt="Kapspire" height="150" />
+	<img src=https://i.imgur.com/jpsIIe6.png" alt="Kapspire" height="150" />
 									     
 [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/dc7z.svg)](https://betteruptime.com/?utm_source=status_badge)
 									 
