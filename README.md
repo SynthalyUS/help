@@ -1,17 +1,13 @@
 <div align="center">
-	<img src=https://i.imgur.com/jpsIIe6.png" alt="Kapspire" height="150" />
-									     
-[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/dc7z.svg)](https://betteruptime.com/?utm_source=status_badge)
+	<img src=https://i.imgur.com/kPXOr0r.png" alt="Kapspire" height="150" />									
 									 
-<p><a href="https://www.kapspire.com">About Kapspire</a></p>
+<p><a href="https://discord.gg/qybqRx6qV6">About Synthaly</a></p>
 </div>
 
-**Kapspire** Best App for, Web Development For Clients And Market, Brand Creation, Trend Analysis & Style Consulting, Product Promotion, Blog Advertising & SEO.
+Welcome to **Synthaly**, the Future of Roblox. We are a team focused on the creation of the future. Account created and managed by Roblox Developers.
+#Synthaly
 
-- Kapspire
-- Kapspire Community
-- Kapspire Games
-- Kapspire Apps
+- Synthaly
 
 ⚠ WARNING: DO NOT COPY THIS ASSET! THIS IS ONLY USED FOR EDUCATIONAL PURPOSES ONLY! ⚠					     
 					     
