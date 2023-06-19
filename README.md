@@ -7,7 +7,7 @@
 Welcome to **Synthaly**, the Future of Roblox. We are a team focused on the creation of the future. Account created and managed by Roblox Developers.
 #Synthaly
 
-- Synthaly
+- Synthaly Help
 
 ⚠ WARNING: DO NOT COPY THIS ASSET! THIS IS ONLY USED FOR EDUCATIONAL PURPOSES ONLY! ⚠					     
 					     
